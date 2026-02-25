@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ff9ecf, #ff6fb5);
+}
+
+.app-container {
+  text-align: center;
+  padding: 40px;
+}
+
+.title {
+  color: white;
+}
+
+.weather-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 80%;
+  margin: auto;
+  box-shadow: 0 5px 20px rgba(255, 105, 180, 0.3);
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.input-section input,
+.input-section select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ffb6d9;
+}
+
+.input-section button {
+  padding: 10px 20px;
+  background: #ff4da6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.input-section button:hover {
+  background: #e60073;
+}
+
+.result-box {
+  margin-top: 25px;
+  padding: 20px;
+  background: #ffe6f2;
+  border-radius: 10px;
+}
+
+.forecast-container {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.forecast-card {
+  background: #ffe6f2;
+  padding: 15px;
+  border-radius: 8px;
+  width: 150px;
+  box-shadow: 0 3px 10px rgba(255, 105, 180, 0.2);
+}
